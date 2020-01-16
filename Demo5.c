@@ -2,21 +2,20 @@
 
 int main(void) {
 	
-	float  choice = 2.0f;
-	
+	int choice = 2;
 	switch(choice){
 	    case 1:
 	        printf("KPIT\n");
 	        break;
 	    case 2:
 	        printf("Virtual_Genesis\n");
-	        break;
+	        break;	    
 	    case 3:
 	        printf("EduOnline\n");
-	        break;
+	        break;	    
 	    case 4:
-	        printf("Trvis and Jenkins\n");
-	        break;
+	        printf("Travis and Jenkins\n");
+	        break;	    
 	    default:
 	        printf("Case default\n");
 	}
